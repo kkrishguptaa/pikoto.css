@@ -1,0 +1,21 @@
+code {
+  background: var(--brand-offtone);
+  border-radius: .4rem;
+  font-size: 86%;
+  margin: 0 .2rem;
+  padding: .2rem .5rem;
+  white-space: nowrap;
+}
+
+pre {
+  background: var(--brand-offtone);
+  border-left: .3rem solid var(--brand);
+  overflow-y: hidden;
+
+  &>code {
+    border-radius: 0;
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre;
+  }
+}

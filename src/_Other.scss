@@ -1,0 +1,24 @@
+:where(details) {
+  & :where(summary) {
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+:where(dialog) {
+  border: 0;
+
+  &::backdrop {
+    background-color: var(--fg);
+  }
+}
+
+:where(hr) {
+  border: 0;
+  border-top: .1rem solid var(--brand-offtone);
+  margin: 3.0rem 0;
+}
+
+:where(img) {
+  max-width: 100%;
+}

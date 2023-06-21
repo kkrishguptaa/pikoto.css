@@ -1,0 +1,25 @@
+:where(button,
+  dd,
+  dt,
+  li) {
+  margin-bottom: 1.0rem;
+}
+
+:where(fieldset,
+  input,
+  select,
+  textarea) {
+  margin-bottom: 1.5rem;
+}
+
+:where(blockquote,
+  dl,
+  figure,
+  form,
+  ol,
+  p,
+  pre,
+  table,
+  ul) {
+  margin-bottom: 2.5rem;
+}

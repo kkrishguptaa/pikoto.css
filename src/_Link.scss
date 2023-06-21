@@ -1,0 +1,13 @@
+:where(a[href]) {
+  color: var(--fg);
+  font-weight: 500;
+  text-decoration: none;
+  text-decoration: underline dashed var(--brand);
+  text-underline-offset: .2em;
+  transition: color 0.3s ease;
+  will-change: color;
+
+  &:hover {
+    color: var(--brand)
+  }
+}

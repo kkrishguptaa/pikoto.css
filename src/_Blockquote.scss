@@ -1,0 +1,19 @@
+:where(blockquote) {
+  margin: initial 0;
+  padding: 1rem 1.5rem;
+  position: relative;
+
+  &::before {
+    content: open-quote;
+    color: var(--brand);
+    font-family: fantasy;
+    font-size: 4em;
+    position: absolute;
+    top: -.1em;
+    left: -.25em;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,26 @@
+:where(button,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"]) {
+  background: var(--brand);
+  color: var(--bg);
+  border: .25em solid var(--brand);
+  font: inherit;
+  font-weight: 500;
+  padding: .5em 1em;
+  border-radius: .2em;
+  outline: 0;
+  cursor: pointer;
+  transition: color 0.3s ease,
+    background-color 0.3s ease;
+  will-change: color, background-color;
+
+  &:hover {
+    background: transparent;
+    color: var(--fg);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
