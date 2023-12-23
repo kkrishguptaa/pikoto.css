@@ -9,9 +9,9 @@
     "build": "node-sass src/pikoto.scss dist/pikoto.css --importer node_modules/node-sass-import"
   },
   "devDependencies": {
-    "@csstools/normalize.css": "^12.0.0",
-    "node-sass": "^9.0.0",
-    "node-sass-import": "^2.0.1"
+    "@csstools/normalize.css": "12.0.0",
+    "node-sass": "9.0.0",
+    "node-sass-import": "2.0.1"
   },
   "dependencies": {}
 }
